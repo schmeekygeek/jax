@@ -1,3 +1,2 @@
-if () {
-  print("Hello")
-}
+// this is a print line statement
+print("Helo world")
