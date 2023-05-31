@@ -1,5 +1,3 @@
-package io.schmeekydev.jax;
-
 import java.util.List;
 
 abstract class Expr {
