@@ -1,4 +1,5 @@
 #!/bin/bash
 
-javac Jax.java
-java Jax "$@"
+mkdir -p build
+javac -d build src/*
+java -classpath build/ Jax "$@"
