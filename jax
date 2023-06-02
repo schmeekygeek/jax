@@ -1,5 +1,7 @@
 #!/bin/bash
 
 mkdir -p build
+echo -e "Compiling..."
 javac -d build src/jax/*
+echo -e "Done\n"
 java -classpath build/ Jax "$@"
